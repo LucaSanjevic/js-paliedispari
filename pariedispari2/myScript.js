@@ -6,6 +6,7 @@ getSomma(pariodispari, inserisciNumero)
 function getSomma(_pariodispari, _inserisciNumero) {
     var num = Math.floor(Math.random()*5);
     var somma = num + _inserisciNumero;
+    //Perchè devo renderlo dispari per farlo funzionare?
     if(somma % 2 == 1) {
         if(_pariodispari == "Pari") {
             return console.log("Hai vinto, il numero è pari");
